@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import './app.css'
+import Switch from './components/Switch';
 
 function App() {
-  const [status,setStatus]= useState(true)
+  const [status,setStatus]= useState(false)
+  
   return (
     <div className="App">
       {
@@ -20,7 +22,7 @@ function App() {
             onClick={()=>setStatus(!status)}>
               Toggle</button>
 
-          
+          <Switch  />
     </div>
   );
 }
