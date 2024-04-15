@@ -14,7 +14,7 @@ const Switch = ({rounded=true}) => {
     <>
     
     {
-    isToggled? <h1>Learn React</h1>:null
+    isToggled? <h1>Let's toggle</h1>:null
     }
    <label className='switch'>
     <input type='checkbox' checked={isToggled} onChange={()=>setIsTogled(previous=>!previous)}/>

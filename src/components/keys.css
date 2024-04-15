@@ -1,0 +1,34 @@
+.key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+  .show, .hide {
+    margin-top: 10px; /* Adjust this value as needed */
+  }
+  
+
+button{
+    height: 50px;
+    width: 80px;
+    margin-left: 20px;
+    font-size: larger;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+.show{
+    background-color: rgb(75, 141, 30);
+}
+
+.hide{
+    background-color: brown;
+}
+
+.toggle{
+    background-color: rgb(243, 88, 114);
+    margin-top: 10px;
+}
